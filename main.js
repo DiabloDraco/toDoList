@@ -20,7 +20,7 @@ elForm.addEventListener("submit" , function add(evt) {
         err.textContent = "Pls type a something"
     }
 })
-
+// Copyrighted by Mirmuhsin
 elClear.addEventListener("click" , function (evt) {
     evt.preventDefault()
 
@@ -29,7 +29,7 @@ elClear.addEventListener("click" , function (evt) {
     elList.textContent = null
     err.textContent = null
 })
-
+// Copyrighted by Mirmuhsin
 function Render(array) {
     for (let i = 0; i < array.length; i++) {
         var NewLi = document.createElement("li")
