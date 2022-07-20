@@ -28,6 +28,7 @@ elClear.addEventListener("click" , function (evt) {
     elTotal.textContent = 0
     elList.textContent = null
     err.textContent = null
+    elInput.value = null
 })
 // Copyrighted by Mirmuhsin
 function Render(array) {
