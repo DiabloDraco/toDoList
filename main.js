@@ -17,7 +17,7 @@ elForm.addEventListener("submit" , function add(evt) {
         TotalNum = arr.length
         elTotal.textContent = `${TotalNum}`
     }else {
-        err.textContent = "Pls type a something"
+        err.textContent = "Pls type something"
     }
 })
 // Copyrighted by Mirmuhsin
