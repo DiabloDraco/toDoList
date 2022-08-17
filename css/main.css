@@ -77,3 +77,22 @@ button:active {
 }
 /* Copyrighted by Mirmuhsin */
 
+li {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.button {
+    background-color: rgb(86, 12, 160);
+    margin-left: -20px;
+}
+
+.pii {
+    border: 1px solid rgb(86, 12, 160);
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border-radius: 10px 0 0 10px;
+}
